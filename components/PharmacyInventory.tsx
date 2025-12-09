@@ -140,10 +140,9 @@ export const PharmacyInventory: React.FC<PharmacyInventoryProps> = ({ onAction, 
              </button>
              <button 
                onClick={handleSubmitPO}
-               disabled={poItems.length === 0}
                className={`flex items-center gap-2 rounded-lg px-6 py-2.5 font-bold text-white shadow-md transition-all focus:ring-2 focus:ring-[#0D7A68]/50 ${
                  poItems.length === 0 
-                   ? 'bg-slate-300 cursor-not-allowed opacity-70' 
+                   ? 'bg-slate-400 cursor-pointer opacity-90 hover:bg-slate-500' // Visual indication for empty state, but clickable for toast
                    : 'bg-[#0D7A68] hover:bg-[#0B6656] cursor-pointer active:scale-[0.98]'
                }`}
              >
