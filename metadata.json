@@ -1,0 +1,7 @@
+{
+  "name": "SIMRS Luxury ERP",
+  "description": "A high-end, integrated Hospital ERP system featuring real-time analytics, pharmacy inventory management with AI predictions, and streamlined billing processes.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
